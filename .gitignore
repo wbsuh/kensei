@@ -1,8 +1,5 @@
 # Ignore .env file
 .env
-
-# Ignore all files under the doc folder
 docs/
-
-# Ignore __pycache__ directories
 __pycache__/
+.DS_Store
