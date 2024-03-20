@@ -1,6 +1,7 @@
 # Kensei: Learn Japanese Characters with AI
 
-## Kensei is a CrewAI-powered application designed to assist learners in mastering Japanese characters (Kanji, Hiragana, and Katakana) by generating exercises from real-world texts. By analyzing documents, URLs, or plain text, Kensei aims to provide a dynamic and context-rich learning experience tailored to each user's progression.
+### Overview
+Kensei (Kanji Sensei) is a CrewAI-powered application designed to assist learners in mastering Japanese characters (Kanji) by generating exercises from real-world texts. By analyzing documents, URLs, or plain text, Kensei aims to provide a dynamic and context-rich learning experience tailored to each user's progression.
 
 ### Objective
 The primary goal of Kensei is to use generative AI to enable users to read and understand Japanese characters by interacting with exercises derived from authentic texts. The exercises will focus on recognizing characters, understanding their meanings, translating them, and applying them in sentences.
