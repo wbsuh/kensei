@@ -38,5 +38,41 @@ The development of Kensei will involve creating a CrewAI application structured 
 - Database/Caching System: Store and manage character data, translations, and user progress.
 
 ### Getting Started
-Placehoder: Instructions on setting up the environment, installing dependencies, and initializing the CrewAI project will be provided, ensuring users can easily set up Kensei for personal use.
+To set up and run the Kensei application, follow these steps:
 
+1. Clone the repository:
+```
+git clone git@github.com:wbsuh/kensei.git
+```
+
+2. Navigate to the project directory:
+```
+cd kensei
+```
+3. Install the required dependencies:
+```
+pip install -r requirements.txt
+```
+4. Set up your OpenAI API key:
+- Create a `.env` file in the project root directory.
+- Add the following line to the `.env` file, replacing `YOUR_API_KEY` with your actual OpenAI API key:
+  ```
+  OPENAI_API_KEY=YOUR_API_KEY
+  ```
+
+5. Run the application:
+```
+python main.py
+```
+
+6. Follow the prompts in the terminal:
+- Enter the input source (document, text, or URL) directory path when prompted.
+- The application will process the input, extract Japanese text, analyze characters, generate sentences, and create review exercises.
+
+7. View the generated files:
+- The extracted Japanese text will be saved in `docs/extracted_text.txt`.
+- The character analysis results will be saved in `docs/character_analysis.csv`.
+- The generated sentences will be saved in `docs/generated_sentences.txt`.
+- The review exercises will be saved in `docs/review_exercises.txt`.
+
+Note: Make sure you have a valid OpenAI API key to run the application successfully. The application uses the GPT-3.5 and GPT-4 models for various tasks, so ensure you have the necessary permissions and credits in your OpenAI account.
