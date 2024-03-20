@@ -1,4 +1,6 @@
+__pycache__/
 .env
 docs/
-__pycache__/
+
+# mac files
 .DS_Store
