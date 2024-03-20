@@ -38,5 +38,5 @@ The development of Kensei will involve creating a CrewAI application structured 
 - Database/Caching System: Store and manage character data, translations, and user progress.
 
 ### Getting Started
-Instructions on setting up the environment, installing dependencies, and initializing the CrewAI project will be provided, ensuring users can easily set up Kensei for personal use.
+Placehoder: Instructions on setting up the environment, installing dependencies, and initializing the CrewAI project will be provided, ensuring users can easily set up Kensei for personal use.
 
